@@ -8,12 +8,12 @@ const {
 const { protect } = require('../middleware/authMiddleware');
 
 // Register a new user
-
+router.post('/register', registerUser);
 
 // Log in a user
-
+router.post('/login', loginUser);
 
 // Get user data
-
+router.get('/me', protect, getMe);
 
 module.exports = router;

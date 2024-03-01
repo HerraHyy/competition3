@@ -12,6 +12,7 @@
   "author": "Brad",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
@@ -19,7 +20,8 @@
     "express": "^4.17.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^6.1.9"
+    "mongoose": "^6.1.9",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "concurrently": "^7.0.0",

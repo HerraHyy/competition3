@@ -1,4 +1,3 @@
-// components
 import GoalDetails from "../components/GoalDetails";
 import GoalForm from "../components/GoalForm";
 
